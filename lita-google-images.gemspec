@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-google-images"
-  spec.version       = "1.0.5"
-  spec.authors       = ["Jimmy Cuadra"]
-  spec.email         = ["jimmy@jimmycuadra.com"]
+  spec.version       = "1.1.5"
+  spec.authors       = ["Jimmy Cuadra","Scott Parrish"]
+  spec.email         = ["jimmy@jimmycuadra.com", "anithri@gmail.com"]
   spec.description   = %q{A Lita handler for fetching images from Google.}
-  spec.summary       = %q{A Lita handler for fetching images from Google.}
-  spec.homepage      = "https://github.com/jimmycuadra/lita-google-images"
+  spec.summary       = %q{A Lita handler for fetching images from Google. With additional syntax""}
+  spec.homepage      = "https://github.com/anithri/lita-google-images"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 

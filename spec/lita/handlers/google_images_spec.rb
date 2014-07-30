@@ -4,7 +4,9 @@ describe Lita::Handlers::GoogleImages, lita_handler: true do
   it { routes_command("image me foo").to(:fetch) }
   it { routes_command("image foo").to(:fetch) }
   it { routes_command("img foo").to(:fetch) }
-  it { routes_command("img me foo").to(:fetch) }
+  
+  it { routes_command("foo me").to(:fetch) }
+  it { doesnt_route("foo bar me").to(:fetch) }
 
   describe "#foo" do
     let(:response) { double("Faraday::Response") }

@@ -9,6 +9,7 @@ module Lita
         "image QUERY" => "Displays a random image from Google Images matching the query."
       })
 
+      route(/^\s*(\w+)\s+me\s*$/,:fetch, command: true, help:{"1WORDQUERY me" => "Quick grab an image with 1 word"})
       def self.default_config(handler_config)
         handler_config.safe_search = :active
       end

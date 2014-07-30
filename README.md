@@ -37,6 +37,7 @@ Lita: image carl the pug
 Lita: image me carl the pug
 Lita: img carl the pug
 Lita: img me carl the pug
+Lita: hedgehog me
 ```
 
 The second form is for those coming from [Hubot](http://hubot.github.com/).
